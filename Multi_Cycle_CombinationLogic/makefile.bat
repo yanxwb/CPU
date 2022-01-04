@@ -1,0 +1,2 @@
+iverilog -o ./build/sc.out ./src/ALU.v ./src/ALUCU.v ./src/DM.v ./src/IR.v ./src/MCU.v ./src/MUX5.v ./src/MUX32_2.v ./src/MUX32_4.v ./src/PC.v ./src/RF.v ./src/SHL2_26.v ./src/SHL2_32.v ./src/SigExt.v ./src/SR.v ./src/MDR.v ./src/TMPREG.v ./src/MC_CPU.v ./src/MC_CPU_tb.v
+vvp -n ./build/sc.out
